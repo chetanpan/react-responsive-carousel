@@ -91,10 +91,10 @@ class Carousel extends Component {
     }
 
     componentWillReceiveProps (nextProps) {
-        if (nextProps.selectedItem !== this.state.selectedItem) {
+        /*if (nextProps.selectedItem !== this.state.selectedItem) {
             this.updateSizes();
             this.moveTo(nextProps.selectedItem);
-        }
+        }*/
 
         if (nextProps.autoPlay !== this.props.autoPlay) {
             if (nextProps.autoPlay) {
